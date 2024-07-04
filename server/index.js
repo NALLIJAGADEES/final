@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://new-two-alpha.vercel.app/"],
+    origin: ["https://finalclient-git-main-jagadeeshs-projects-10cc5e62.vercel.app/"],
     credentials: true,
     
   })
