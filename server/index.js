@@ -13,8 +13,9 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
+    origin: ["https://new-two-alpha.vercel.app/"],
     credentials: true,
-    origin: "http://localhost:5173",
+    
   })
 );
 dotenv.config();
