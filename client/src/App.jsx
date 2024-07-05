@@ -10,7 +10,7 @@ import SettingsPage from "./pages/SettingsPage/SettingsPage"
 import { UserContextProvider } from "./context/UserContext"
 import Layout from "./layout/Layout.jsx"
 import SharePage from "./pages/SharePage/SharePage.jsx"
-axios.defaults.baseURL = `https://finalserver-git-main-jagadeeshs-projects-10cc5e62.vercel.app/`
+axios.defaults.baseURL = `https://finalserver-8kvfo75ll-jagadeeshs-projects-10cc5e62.vercel.app/`
 axios.defaults.withCredentials = true
 const App = () => {
   return (
